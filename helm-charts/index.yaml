@@ -3,7 +3,7 @@ entries:
   coder-with-traefik:
   - apiVersion: v1
     appVersion: v2.13.4
-    created: "2024-08-18T01:39:58.828979966Z"
+    created: "2024-08-18T20:35:07.07486064Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: ed66b7d5585d57ce31d7ef80745298494aa09531bd58e5c84fbc2416cda803e3
@@ -21,7 +21,7 @@ entries:
     version: v1.0.0
   cronjob-collection:
   - apiVersion: v1
-    created: "2024-08-18T01:39:58.830970747Z"
+    created: "2024-08-18T20:35:07.079249929Z"
     description: Collection of Cronjobs with specific examples
     digest: 2083d7dfc81cd624c889f484a4d048e3f299a22631a62d0f6a2f06df294ae5cf
     home: https://github.com/markbrown87/devops-helm
@@ -37,7 +37,7 @@ entries:
     version: v1.0.0
   external-redirects:
   - apiVersion: v1
-    created: "2024-08-18T01:39:58.832648228Z"
+    created: "2024-08-18T20:35:07.081723418Z"
     description: Collection of External Redirects allow Traefik to provide TLS for
       external endpoints without placing it in traefik configuration file
     digest: 1c7fff0fc3a53a9e93d2af4f4ec34be1972eb262ddd0a82e16885ebbdde7a441
@@ -52,10 +52,29 @@ entries:
     urls:
     - https://markbrown87.github.io/helm-charts/packages/external-redirects-v1.0.0.tgz
     version: v1.0.0
+  guacamole-with-traefik:
+  - apiVersion: v1
+    appVersion: v1.5.5
+    created: "2024-08-18T20:35:07.084099188Z"
+    description: Apache Guacamole Umbrella chart that houses the IngressRoute for
+      Traefik.
+    digest: 262dd8b6b46f9be6a574c3a4c8bc3e1cde15487cdfd9e26855886a318bb09ade
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: guacamole-with-traefik
+    sources:
+    - https://github.com/markbrown87/devops-helm
+    - https://charts.beryju.io
+    urls:
+    - https://markbrown87.github.io/helm-charts/packages/guacamole-with-traefik-v1.0.0.tgz
+    version: v1.0.0
   home-assistant-with-traefik:
   - apiVersion: v1
     appVersion: 2024.7.3
-    created: "2024-08-18T01:39:58.835299168Z"
+    created: "2024-08-18T20:35:07.087225295Z"
     description: Olivetin umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: eec1537cf3658324b722225cc59ea3503faa973252e68bd85b369a10a8b430f2
@@ -74,7 +93,7 @@ entries:
   nextcloud-with-traefik:
   - apiVersion: v1
     appVersion: v2.13.1
-    created: "2024-08-18T01:39:58.853645771Z"
+    created: "2024-08-18T20:35:07.10613452Z"
     description: Nextcloud umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: 26762fec39285f37bdd4007f69f9aa47d3509622776bfbdf963e95972cfde8af
@@ -92,7 +111,7 @@ entries:
     version: v2.13.1
   traefik-custom:
   - apiVersion: v1
-    created: "2024-08-18T01:39:58.856274105Z"
+    created: "2024-08-18T20:35:07.108429596Z"
     description: Traefik Chart to install custom configurations in a cluster that
       has Traefik pre-installed
     digest: a594f261030bc0a3b86a0e50030586b051e7d1784a3e96593f90c120f7433a80
@@ -105,4 +124,4 @@ entries:
     urls:
     - https://markbrown87.github.io/helm-charts/packages/traefik-custom-v1.0.0.tgz
     version: v1.0.0
-generated: "2024-08-18T01:39:58.826074326Z"
+generated: "2024-08-18T20:35:07.071644503Z"
