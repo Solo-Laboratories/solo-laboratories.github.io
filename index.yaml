@@ -1,0 +1,89 @@
+apiVersion: v1
+entries:
+  coder-with-traefik:
+  - apiVersion: v1
+    appVersion: v2.13.4
+    created: "2024-08-18T01:30:20.066996999Z"
+    description: Coder v2 umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: c1b2365baed474a3cf8cc380386afc99d6c05c74469c3fe452996c877c9819ef
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: coder-with-traefik
+    sources:
+    - https://github.com/markbrown87/devops-helm
+    - https://github.com/coder/coder/tree/main/helm/coder
+    urls:
+    - https://markbrown87.github.io/helm-charts/coder-with-traefik-v1.0.0.tgz
+    version: v1.0.0
+  cronjob-collection:
+  - apiVersion: v1
+    created: "2024-08-18T01:30:20.069279285Z"
+    description: Collection of Cronjobs with specific examples
+    digest: 7c004ef2bf35709eb20fbad49c77666af46c155a42ea70e1511d2441af68fe50
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: cronjob-collection
+    sources:
+    - https://github.com/markbrown87/devops-helm
+    urls:
+    - https://markbrown87.github.io/helm-charts/cronjob-collection-1.0.0.tgz
+    version: 1.0.0
+  external-redirect:
+  - apiVersion: v1
+    created: "2024-08-18T01:30:20.071521134Z"
+    description: Collection of External Redirects allow Traefik to provide TLS for
+      external endpoints without placing it in traefik configuration file
+    digest: 38548b72a96b6d70b5c88910bf9504289a8f3d53b1ea679e987cd66adb0efa05
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: external-redirect
+    sources:
+    - https://github.com/markbrown87/devops-helm
+    urls:
+    - https://markbrown87.github.io/helm-charts/external-redirect-1.0.0.tgz
+    version: 1.0.0
+  nextcloud-with-traefik:
+  - apiVersion: v1
+    appVersion: v2.13.1
+    created: "2024-08-18T01:30:20.091847513Z"
+    description: Nextcloud umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: 04b1df2a2b408f53416b01d35ae452977317a753cd3d39e799f8497bfd521f8b
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: nextcloud-with-traefik
+    sources:
+    - https://github.com/markbrown87/devops-helm
+    - https://github.com/nextcloud/helm
+    urls:
+    - https://markbrown87.github.io/helm-charts/nextcloud-with-traefik-v2.13.1.tgz
+    version: v2.13.1
+  traefik-custom:
+  - apiVersion: v1
+    created: "2024-08-18T01:30:20.09402063Z"
+    description: Traefik Chart to install custom configurations in a cluster that
+      has Traefik pre-installed
+    digest: fc2a1ccbcacf84b32c9f8e3ac6eade6f2d610976c2c0d909fe64e3d378cc3a49
+    home: https://github.com/markbrown87/devops-helm
+    maintainers:
+    - email: mark.brown8790+devops-helm@gmail.com
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: traefik-custom
+    urls:
+    - https://markbrown87.github.io/helm-charts/traefik-custom-v1.0.0.tgz
+    version: v1.0.0
+generated: "2024-08-18T01:30:20.063282078Z"
