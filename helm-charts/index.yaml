@@ -3,10 +3,10 @@ entries:
   coder-with-traefik:
   - apiVersion: v1
     appVersion: v2.14.2
-    created: "2024-08-24T16:44:23.298263896Z"
+    created: "2024-08-24T16:55:07.461052087Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
-    digest: 4a057797b1ce354d66424c94a0cfcb080ec84f43a80eb98bbc4b163a47df294b
+    digest: ec432137cb79813595e63e948cbded84451aa328fd502d92a9ee38df04bf55c4
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -20,7 +20,7 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: v2.14.2
-    created: "2024-08-24T16:44:23.273445317Z"
+    created: "2024-08-24T16:55:07.458370607Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: eaac0cbf932b3d5eb92111942cd5a5dcbfa1b99c607662998dda3bc04f08f72e
@@ -37,7 +37,7 @@ entries:
     version: v1.0.1
   - apiVersion: v1
     appVersion: v2.13.4
-    created: "2024-08-24T16:44:23.270687734Z"
+    created: "2024-08-24T16:55:07.455840115Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: ed66b7d5585d57ce31d7ef80745298494aa09531bd58e5c84fbc2416cda803e3
@@ -55,7 +55,7 @@ entries:
     version: v1.0.0
   cronjob-collection:
   - apiVersion: v1
-    created: "2024-08-24T16:44:23.300127718Z"
+    created: "2024-08-24T16:55:07.462783117Z"
     description: Collection of Cronjobs with specific examples
     digest: 2083d7dfc81cd624c889f484a4d048e3f299a22631a62d0f6a2f06df294ae5cf
     home: https://github.com/markbrown87/devops-helm
@@ -71,7 +71,7 @@ entries:
     version: v1.0.0
   external-redirects:
   - apiVersion: v1
-    created: "2024-08-24T16:44:23.301753582Z"
+    created: "2024-08-24T16:55:07.464267783Z"
     description: Collection of External Redirects allow Traefik to provide TLS for
       external endpoints without placing it in traefik configuration file
     digest: 1c7fff0fc3a53a9e93d2af4f4ec34be1972eb262ddd0a82e16885ebbdde7a441
@@ -89,10 +89,10 @@ entries:
   guacamole-with-traefik:
   - apiVersion: v1
     appVersion: v1.5.5
-    created: "2024-08-24T16:44:23.318330384Z"
+    created: "2024-08-24T16:55:07.468220287Z"
     description: Apache Guacamole Umbrella chart that houses the IngressRoute for
       Traefik.
-    digest: e5781426a5e71bfd2a8e4aee4c2c32fbedb4d49cd7bba2a97d5a485eb7b523dd
+    digest: 9cf8537b4d2417d338889c2cefc0399294786f0800ba6c2d315ec950851cefa1
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -106,7 +106,7 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: v1.5.5
-    created: "2024-08-24T16:44:23.303894888Z"
+    created: "2024-08-24T16:55:07.466166656Z"
     description: Apache Guacamole Umbrella chart that houses the IngressRoute for
       Traefik.
     digest: 262dd8b6b46f9be6a574c3a4c8bc3e1cde15487cdfd9e26855886a318bb09ade
@@ -125,10 +125,10 @@ entries:
   home-assistant-with-traefik:
   - apiVersion: v1
     appVersion: 2024.7.3
-    created: "2024-08-24T16:44:23.329816101Z"
+    created: "2024-08-24T16:55:07.474628472Z"
     description: Home Assistent umbrella chart that houses an IngressRoute for clusters
       using Traefik
-    digest: 020cffc0c8680a76946afbc445b733fe39889184a3e6b4ded7060a46956ebec4
+    digest: 6397382cca166ba3457c36e449acb1e0e6079b1043509a978e114427d73ba944
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -142,7 +142,7 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: 2024.7.3
-    created: "2024-08-24T16:44:23.321208773Z"
+    created: "2024-08-24T16:55:07.471732274Z"
     description: Olivetin umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: eec1537cf3658324b722225cc59ea3503faa973252e68bd85b369a10a8b430f2
@@ -160,9 +160,9 @@ entries:
     version: v1.0.0
   ingressroutes:
   - apiVersion: v1
-    created: "2024-08-24T16:44:23.331779687Z"
+    created: "2024-08-24T16:55:07.476431098Z"
     description: Creates IngressRoute objects used with Traefik to route to services.
-    digest: 09409873ab2217047186e9b61c04760e3ea80b919044c073f0a822173c50f087
+    digest: a4d9966b0fb27d90caeef7f7cf1cb8dac27e1dc030015441727c525e8adfb97c
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -177,10 +177,10 @@ entries:
   nextcloud-with-traefik:
   - apiVersion: v1
     appVersion: v2.13.1
-    created: "2024-08-24T16:44:23.37082746Z"
+    created: "2024-08-24T16:55:07.495107756Z"
     description: Nextcloud umbrella chart that houses an IngressRoute for clusters
       using Traefik
-    digest: 2a1d29b073006b16f3e4b41c22f3dcb714f74d1580c339bfd7abdc3561306401
+    digest: 547287a8595c1fbea47b19fb8a2a60695ec657485672fb9781528efb17f2f890
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -195,10 +195,10 @@ entries:
   olivetin-with-traefik:
   - apiVersion: v1
     appVersion: 2024.07.153
-    created: "2024-08-24T16:44:23.381681281Z"
+    created: "2024-08-24T16:55:07.497222627Z"
     description: Olivetin umbrella chart that houses an IngressRoute for clusters
       using Traefik
-    digest: 148653c6b58955f1f26dab7c4a7a3b17d6e7d3c9071b590f157284e134ffb27a
+    digest: 1c571bf97f97ffbeec97fed26269723d71fc2451133dedadae39c6585bc2c9ee
     home: https://github.com/solo-laboratories/devops-helm
     maintainers:
     - email: markus@sololab.one
@@ -213,7 +213,7 @@ entries:
     version: v2.0.0
   traefik-custom:
   - apiVersion: v1
-    created: "2024-08-24T16:44:23.383692303Z"
+    created: "2024-08-24T16:55:07.499100176Z"
     description: Traefik Chart to install custom configurations in a cluster that
       has Traefik pre-installed
     digest: a594f261030bc0a3b86a0e50030586b051e7d1784a3e96593f90c120f7433a80
@@ -226,4 +226,4 @@ entries:
     urls:
     - https://solo-laboratories.github.io/helm-charts/packages/traefik-custom-v1.0.0.tgz
     version: v1.0.0
-generated: "2024-08-24T16:44:23.267776903Z"
+generated: "2024-08-24T16:55:07.453075094Z"
