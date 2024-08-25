@@ -3,7 +3,7 @@ entries:
   coder-with-traefik:
   - apiVersion: v1
     appVersion: v2.14.2
-    created: "2024-08-25T17:32:04.347426042Z"
+    created: "2024-08-25T19:53:33.44449395Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: ec432137cb79813595e63e948cbded84451aa328fd502d92a9ee38df04bf55c4
@@ -20,7 +20,24 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: v2.14.2
-    created: "2024-08-25T17:32:04.344571749Z"
+    created: "2024-08-25T19:53:33.441733857Z"
+    description: Coder v2 umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: 14e69893f35f41bb3a5ac95c88a2c1a4edd28b65a86ce60b7ca1168c56ee8145
+    home: https://github.com/solo-laboratories/devops-helm
+    maintainers:
+    - email: markus@sololab.one
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: coder-with-traefik
+    sources:
+    - https://github.com/coder/coder/tree/main/helm/coder
+    urls:
+    - https://solo-laboratories.github.io/helm-charts/packages/coder-with-traefik-v1.1.0.tgz
+    version: v1.1.0
+  - apiVersion: v1
+    appVersion: v2.14.2
+    created: "2024-08-25T19:53:33.438065145Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: eaac0cbf932b3d5eb92111942cd5a5dcbfa1b99c607662998dda3bc04f08f72e
@@ -37,7 +54,7 @@ entries:
     version: v1.0.1
   - apiVersion: v1
     appVersion: v2.13.4
-    created: "2024-08-25T17:32:04.341834809Z"
+    created: "2024-08-25T19:53:33.435478263Z"
     description: Coder v2 umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: ed66b7d5585d57ce31d7ef80745298494aa09531bd58e5c84fbc2416cda803e3
@@ -55,7 +72,7 @@ entries:
     version: v1.0.0
   cronjob-collection:
   - apiVersion: v1
-    created: "2024-08-25T17:32:04.349391381Z"
+    created: "2024-08-25T19:53:33.446662742Z"
     description: Collection of Cronjobs with specific examples
     digest: 2083d7dfc81cd624c889f484a4d048e3f299a22631a62d0f6a2f06df294ae5cf
     home: https://github.com/markbrown87/devops-helm
@@ -71,7 +88,7 @@ entries:
     version: v1.0.0
   external-redirects:
   - apiVersion: v1
-    created: "2024-08-25T17:32:04.351081362Z"
+    created: "2024-08-25T19:53:33.448848875Z"
     description: Collection of External Redirects allow Traefik to provide TLS for
       external endpoints without placing it in traefik configuration file
     digest: f7c26d6b51e1fa47d2d33adcaba9b6f77cae96996c0479e4b7f9c88470c846da
@@ -89,7 +106,7 @@ entries:
   guacamole-with-traefik:
   - apiVersion: v1
     appVersion: v1.5.5
-    created: "2024-08-25T17:32:04.355594222Z"
+    created: "2024-08-25T19:53:33.455188823Z"
     description: Apache Guacamole Umbrella chart that houses the IngressRoute for
       Traefik.
     digest: 9cf8537b4d2417d338889c2cefc0399294786f0800ba6c2d315ec950851cefa1
@@ -106,7 +123,24 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: v1.5.5
-    created: "2024-08-25T17:32:04.353193522Z"
+    created: "2024-08-25T19:53:33.453102149Z"
+    description: Apache Guacamole Umbrella chart that houses the IngressRoute for
+      Traefik.
+    digest: 05ce3a05eb5a402b3ea9d3bdd197ac6ce27cf38cef318c21a11303a5eabfc3b7
+    home: https://github.com/solo-laboratories/devops-helm
+    maintainers:
+    - email: markus@sololab.one
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: guacamole-with-traefik
+    sources:
+    - https://charts.beryju.io
+    urls:
+    - https://solo-laboratories.github.io/helm-charts/packages/guacamole-with-traefik-v1.1.0.tgz
+    version: v1.1.0
+  - apiVersion: v1
+    appVersion: v1.5.5
+    created: "2024-08-25T19:53:33.450694506Z"
     description: Apache Guacamole Umbrella chart that houses the IngressRoute for
       Traefik.
     digest: 262dd8b6b46f9be6a574c3a4c8bc3e1cde15487cdfd9e26855886a318bb09ade
@@ -125,7 +159,7 @@ entries:
   home-assistant-with-traefik:
   - apiVersion: v1
     appVersion: 2024.7.3
-    created: "2024-08-25T17:32:04.362100231Z"
+    created: "2024-08-25T19:53:33.463939106Z"
     description: Home Assistent umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: 6397382cca166ba3457c36e449acb1e0e6079b1043509a978e114427d73ba944
@@ -142,7 +176,24 @@ entries:
     version: v2.0.0
   - apiVersion: v1
     appVersion: 2024.7.3
-    created: "2024-08-25T17:32:04.358972945Z"
+    created: "2024-08-25T19:53:33.461041859Z"
+    description: Home Assistent umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: d4599f7678b0cd2cd633a3c2ffce48c14ce609f36a5a3212049c1922def3ddff
+    home: https://github.com/solo-laboratories/devops-helm
+    maintainers:
+    - email: markus@sololab.one
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: home-assistant-with-traefik
+    sources:
+    - https://artifacthub.io/packages/helm/helm-hass/home-assistant
+    urls:
+    - https://solo-laboratories.github.io/helm-charts/packages/home-assistant-with-traefik-v1.1.0.tgz
+    version: v1.1.0
+  - apiVersion: v1
+    appVersion: 2024.7.3
+    created: "2024-08-25T19:53:33.4579151Z"
     description: Olivetin umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: eec1537cf3658324b722225cc59ea3503faa973252e68bd85b369a10a8b430f2
@@ -160,7 +211,7 @@ entries:
     version: v1.0.0
   ingressroutes:
   - apiVersion: v1
-    created: "2024-08-25T17:32:04.365975828Z"
+    created: "2024-08-25T19:53:33.467053142Z"
     description: Creates IngressRoute objects used with Traefik to route to services.
     digest: 3d31a4b1980c1e9f910c57a1684f111d1576517f615d073970d96297cbbc30f9
     home: https://github.com/solo-laboratories/devops-helm
@@ -175,7 +226,7 @@ entries:
     - https://solo-laboratories.github.io/helm-charts/packages/ingressroutes-v2.0.0.tgz
     version: v2.0.0
   - apiVersion: v1
-    created: "2024-08-25T17:32:04.364207476Z"
+    created: "2024-08-25T19:53:33.465514409Z"
     description: Creates IngressRoute objects used with Traefik to route to services.
     digest: a4d9966b0fb27d90caeef7f7cf1cb8dac27e1dc030015441727c525e8adfb97c
     home: https://github.com/solo-laboratories/devops-helm
@@ -192,7 +243,7 @@ entries:
   nextcloud-with-traefik:
   - apiVersion: v1
     appVersion: v2.13.1
-    created: "2024-08-25T17:32:04.385128635Z"
+    created: "2024-08-25T19:53:33.503696746Z"
     description: Nextcloud umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: 547287a8595c1fbea47b19fb8a2a60695ec657485672fb9781528efb17f2f890
@@ -207,10 +258,27 @@ entries:
     urls:
     - https://solo-laboratories.github.io/helm-charts/packages/nextcloud-with-traefik-v2.0.0.tgz
     version: v2.0.0
+  - apiVersion: v1
+    appVersion: v2.13.1
+    created: "2024-08-25T19:53:33.485123754Z"
+    description: Nextcloud umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: 7c111b33e06ed87382726a1b402eb13d26597a6342b23a0c8db47491ae41653c
+    home: https://github.com/solo-laboratories/devops-helm
+    maintainers:
+    - email: markus@sololab.one
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: nextcloud-with-traefik
+    sources:
+    - https://github.com/nextcloud/helm
+    urls:
+    - https://solo-laboratories.github.io/helm-charts/packages/nextcloud-with-traefik-v1.1.0.tgz
+    version: v1.1.0
   olivetin-with-traefik:
   - apiVersion: v1
     appVersion: 2024.07.153
-    created: "2024-08-25T17:32:04.387730298Z"
+    created: "2024-08-25T19:53:33.507923118Z"
     description: Olivetin umbrella chart that houses an IngressRoute for clusters
       using Traefik
     digest: 1c571bf97f97ffbeec97fed26269723d71fc2451133dedadae39c6585bc2c9ee
@@ -226,9 +294,27 @@ entries:
     urls:
     - https://solo-laboratories.github.io/helm-charts/packages/olivetin-with-traefik-v2.0.0.tgz
     version: v2.0.0
+  - apiVersion: v1
+    appVersion: 2024.07.153
+    created: "2024-08-25T19:53:33.50616345Z"
+    description: Olivetin umbrella chart that houses an IngressRoute for clusters
+      using Traefik
+    digest: 6e35c22ed8c8323d64012c703577216e007f2aeaf023bcc7e15da2c27f749556
+    home: https://github.com/solo-laboratories/devops-helm
+    maintainers:
+    - email: markus@sololab.one
+      name: Mark Brown
+      url: https://github.com/markbrown87
+    name: olivetin-with-traefik
+    sources:
+    - https://github.com/solo-laboratories/devops-helm
+    - https://github.com/OliveTin
+    urls:
+    - https://solo-laboratories.github.io/helm-charts/packages/olivetin-with-traefik-v1.1.0.tgz
+    version: v1.1.0
   traefik-custom:
   - apiVersion: v1
-    created: "2024-08-25T17:32:04.389810807Z"
+    created: "2024-08-25T19:53:33.50955987Z"
     description: Traefik Chart to install custom configurations in a cluster that
       has Traefik pre-installed
     digest: a594f261030bc0a3b86a0e50030586b051e7d1784a3e96593f90c120f7433a80
@@ -241,4 +327,4 @@ entries:
     urls:
     - https://solo-laboratories.github.io/helm-charts/packages/traefik-custom-v1.0.0.tgz
     version: v1.0.0
-generated: "2024-08-25T17:32:04.338732197Z"
+generated: "2024-08-25T19:53:33.432554343Z"
