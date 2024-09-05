@@ -1,4 +1,4 @@
-# About this page
+# Solo Laboratories Landing Page
 
 More is to come. Too soon yet.
 
